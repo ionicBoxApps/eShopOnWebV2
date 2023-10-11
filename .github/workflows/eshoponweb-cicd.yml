@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-perris
-  LOCATION: uksouth
+  LOCATION: London
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 45c5ba86-dfd6-4cf0-b475-ac46908b01ee
   WEBAPP-NAME: az400-webapp-perris
